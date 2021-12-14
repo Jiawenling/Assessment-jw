@@ -7,7 +7,6 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.Socket;
 import java.nio.file.Files;
-
 import java.util.List;
 
 public class HTTPClientConnection implements Runnable {
@@ -77,6 +76,7 @@ public class HTTPClientConnection implements Runnable {
                             socket.close();
 
                         } else{
+                            System.out.println(file.getAbsolutePath());
                             String response = "HTTP/1.1 200 OK\r\n\r\n";
                             socket.getOutputStream().write(response.getBytes("UTF-8"));
                             byte[] bytes = Files.readAllBytes(file.toPath());

@@ -31,7 +31,7 @@ public class Main {
                     
                 } 
             } else {
-                listOfDirectories.add("./static");
+                listOfDirectories.add("static");
             }
                 
         }
