@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.jw.MainTest" time="0.069" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.jw.MainTest" time="0.075" tests="1" errors="1" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="G:\My Drive\NUSISS\Assessment\Assessment-jw\demo\target\test-classes;G:\My Drive\NUSISS\Assessment\Assessment-jw\demo\target\classes;C:\Users\65820\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\65820\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.class.path" value="g:\My Drive\NUSISS\Assessment\Assessment-jw\demo\target\test-classes;g:\My Drive\NUSISS\Assessment\Assessment-jw\demo\target\classes;C:\Users\65820\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\65820\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,9 +15,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\65820\AppData\Local\Temp\surefire8480877847976291903\surefirebooter16305300615724364572.jar C:\Users\65820\AppData\Local\Temp\surefire8480877847976291903 2021-12-14T10-59-56_376-jvmRun1 surefire6392754867204172649tmp surefire_016519818922400297947tmp"/>
+    <property name="sun.java.command" value="C:\Users\65820\AppData\Local\Temp\surefire12188714902059141291\surefirebooter16709579760135953358.jar C:\Users\65820\AppData\Local\Temp\surefire12188714902059141291 2021-12-14T13-42-51_107-jvmRun1 surefire12767112464957483131tmp surefire_012511342206448723741tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="G:\My Drive\NUSISS\Assessment\Assessment-jw\demo\target\test-classes;G:\My Drive\NUSISS\Assessment\Assessment-jw\demo\target\classes;C:\Users\65820\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\65820\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="surefire.test.class.path" value="g:\My Drive\NUSISS\Assessment\Assessment-jw\demo\target\test-classes;g:\My Drive\NUSISS\Assessment\Assessment-jw\demo\target\classes;C:\Users\65820\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\65820\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\65820"/>
     <property name="user.language" value="en"/>
@@ -25,12 +25,12 @@
     <property name="java.version.date" value="2021-10-19"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-17.0.1"/>
     <property name="file.separator" value="\"/>
-    <property name="basedir" value="G:\My Drive\NUSISS\Assessment\Assessment-jw\demo"/>
+    <property name="basedir" value="g:\My Drive\NUSISS\Assessment\Assessment-jw\demo"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\65820\AppData\Local\Temp\surefire8480877847976291903\surefirebooter16305300615724364572.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\65820\AppData\Local\Temp\surefire12188714902059141291\surefirebooter16709579760135953358.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.1+12-LTS-39"/>
@@ -44,7 +44,7 @@
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\65820\AppData\Local\Temp\"/>
     <property name="java.version" value="17.0.1"/>
-    <property name="user.dir" value="G:\My Drive\NUSISS\Assessment\Assessment-jw\demo"/>
+    <property name="user.dir" value="g:\My Drive\NUSISS\Assessment\Assessment-jw\demo"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
@@ -56,5 +56,8 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="testGetInputs" classname="com.jw.MainTest" time="0.003"/>
+  <testcase name="initializationError" classname="com.jw.MainTest" time="0.006">
+    <error message="Method TestDir() should not be static" type="java.lang.Exception">java.lang.Exception: Method TestDir() should not be static
+</error>
+  </testcase>
 </testsuite>

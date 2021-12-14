@@ -1,4 +1,7 @@
 -------------------------------------------------------------------------------
 Test set: com.jw.MainTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.069 s - in com.jw.MainTest
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.075 s <<< FAILURE! - in com.jw.MainTest
+initializationError(com.jw.MainTest)  Time elapsed: 0.006 s  <<< ERROR!
+java.lang.Exception: Method TestDir() should not be static
+
