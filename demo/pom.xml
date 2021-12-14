@@ -54,7 +54,7 @@
           <configuration>
         <archive>
             <manifest>
-                <mainClass>com.java.Main</mainClass>
+                <mainClass>com.jw.Main</mainClass>
             </manifest>
         </archive>
     </configuration>
